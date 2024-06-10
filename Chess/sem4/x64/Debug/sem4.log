@@ -1,0 +1,10 @@
+﻿  game.cpp
+C:\Users\xyz89\OneDrive\Pulpit\projekt sem 4 visual studio  - sfml\sem4\sem4\Graph.h(57,59): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „game.cpp”)
+  
+C:\Users\xyz89\OneDrive\Pulpit\projekt sem 4 visual studio  - sfml\sem4\sem4\Graph.h(57,51): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „game.cpp”)
+  
+C:\Users\xyz89\OneDrive\Pulpit\projekt sem 4 visual studio  - sfml\sem4\sem4\game.cpp(32,99): warning C4805: "!=": niebezpieczne połączenie typu "int" oraz typu "bool" w operacji
+C:\Users\xyz89\OneDrive\Pulpit\projekt sem 4 visual studio  - sfml\sem4\sem4\game.cpp(143,27): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+  sem4.vcxproj -> C:\Users\xyz89\OneDrive\Pulpit\projekt sem 4 visual studio  - sfml\sem4\x64\Debug\sem4.exe
