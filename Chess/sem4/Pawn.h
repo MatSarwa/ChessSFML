@@ -37,7 +37,7 @@ public:
         int deltaY = toRow - fromRow;
 
         // Pionek mo¿e zbijaæ króla na skosie
-        if (std::abs(deltaX) == 1 && std::abs(deltaY) == 1) {
+        if (std::abs(deltaX) == 1 && ((isWhite && deltaY == -1) || (!isWhite && deltaY == 1))) {
             if (isWhite && board[toRow][toCol] == -4) {
                 return true;
             }
@@ -47,6 +47,7 @@ public:
         }
         return false;
     }
+
 
     bool canCapturePiece(int fromRow, int fromCol, int toRow, int toCol, const int board[8][8], int targetPieceValue, bool isWhite) const override {
         int deltaX = toCol - fromCol;

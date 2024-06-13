@@ -16,11 +16,16 @@ private:
     std::vector<std::pair<int, int>> possibleBlock; // Dodane
     std::pair<int, int> findKing(int kingValue);
 
+    int whiteKingRow = -1;
+    int whiteKingCol = -1;
+    int blackKingRow = -1;
+    int blackKingCol = -1;
+
 public:
     // Konstruktor
     Game() : possibleKingMoves(possibleKingMoves) {}; // Poprawione
 
-    void movePiece(int fromRow, int fromCol, int toRow, int toCol);
+    void movePiece(int fromRow, int fromCol, int toRow, int toCol, bool isWhite);
     void GameLoop();
     bool isWhiteTurn() const;
     void toggleTurn();
@@ -31,6 +36,8 @@ public:
     Piece* createPiece(int pieceValue);
     bool canCaptureAttacker(int toRow, int toCol, const int board[8][8], const std::vector<std::tuple<int, int, int>>& attackers, bool isWhite);
     bool canBlockCheck(int kingRow, int kingCol, int attackerRow, int attackerCol, int attackerValue, bool isWhite, const std::vector<std::tuple<int, int, int>>& attackers, std::vector<std::pair<int, int>>& possibleBlock);
+    void checkPromotion();
+    void findKings(const int(*board)[8]);
 
 };
 

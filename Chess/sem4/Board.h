@@ -10,14 +10,14 @@ public:
     ChessBoard() {
         // Initialize the board with the given values
         int initialBoard[8][8] = {
-            {-1,-2,-3,-4,-5,-3,-2,-1},
-            {-6,-6,-6,-6,-6,-6,-6,-6},
-            { 0, 0, 0, 0, 0, 0, 0, 0},
-            { 0, 0, 0, 0, 0, 0, 0, 0},
-            { 0, 0, 0, 0, 0, 0, 0, 0},
-            { 0, 0, 0, 0, 0, 0, 0, 0},
-            { 6, 6, 6, 6, 6, 6, 6, 6},
-            { 1, 2, 3, 4, 5, 3, 2, 1}
+           { 0, 0, -4, 0, 0, 0, 0, 0},
+           { 0, 0, 0, 0, 0, 6, 0, 0},
+           { 0, 0, 0, 0, 0, 0, 0, 0},
+           { 0, 0, 0, 0, 0, 0, 0, 0},
+           { 0, 0, 0, 0, 0, 0, 0, 0},
+           { 0, 0, 0, 0, 0, 0, 0, 0},
+           { 0, -6, 0, 0, 0, 0, 0, 0}, // White pawn
+           { 0, 0, 0, 0, 4, 0, 0, 0}  // White king
         };
 
         // Copy initialBoard to board
@@ -46,6 +46,11 @@ public:
                 board[toRow][toCol] = piece;
                 board[fromRow][fromCol] = 0;
             }
+        }
+
+        // Metoda do ustawiania pionka na planszy
+        void setPieceAt(int row, int col, int piece) {
+            board[row][col] = piece;
         }
 
 

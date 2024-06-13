@@ -1,4 +1,5 @@
 #include "Game.h"
+#include <cstdio> 
 #include <iostream>
 #include "identification.h"
 #include <SFML/Graphics.hpp>
@@ -16,46 +17,42 @@ Piece* Game::createPiece(int pieceValue) {
     }
 }
 
-void Game::movePiece(int fromRow, int fromCol, int toRow, int toCol) {
+void Game::movePiece(int fromRow, int fromCol, int toRow, int toCol, bool isWhite) {
     const int(*board)[8] = graph.getBoard();
     int pieceValue = board[fromRow][fromCol];
     int fromPiece = graph.getChessBoard().getPieceAt(fromRow, fromCol);
     int toPiece = graph.getChessBoard().getPieceAt(toRow, toCol);
 
-    
-
-    if ((pieceValue > 0 && isWhiteTurn()) || (pieceValue < 0 && !isWhiteTurn())) {
+    if ((pieceValue > 0 && isWhite) || (pieceValue < 0 && !isWhite)) {
         Piece* piece = createPiece(pieceValue);
         if (toPiece == 0 || (pieceValue > 0 && toPiece < 0) || (pieceValue < 0 && toPiece > 0)) {
-            // Tutaj sprawdzamy, czy pionek mo¿e siê poruszyæ na dane pole lub czy mo¿e zaatakowaæ pionka przeciwnika na tym polu
-            if ((fromPiece != 0 && toPiece == 0 && piece != nullptr && piece->canMove(fromRow, fromCol, toRow, toCol, board, isWhiteTurn())) ||
-                (toPiece != 0 && piece != nullptr && graph.getPieceAt(toRow, toCol) != isWhiteTurn() && piece->canCapture(fromRow, fromCol, toRow, toCol, board, isWhiteTurn()))) {
+            bool canMove = (fromPiece != 0 && toPiece == 0 && piece != nullptr && piece->canMove(fromRow, fromCol, toRow, toCol, board, isWhite));
+            bool canCapture = (toPiece != 0 && piece != nullptr && graph.getPieceAt(toRow, toCol) != isWhite && piece->canCapture(fromRow, fromCol, toRow, toCol, board, isWhite));
 
-                if (!isCheckAfterMove(fromRow, fromCol, toRow, toCol, isWhiteTurn())) {
-                    // Aktualizacja planszy
+            if (canMove || canCapture) {
+                if (!isCheckAfterMove(fromRow, fromCol, toRow, toCol, isWhite)) {
                     graph.getChessBoard().movePiece(fromRow, fromCol, toRow, toCol);
-
-                    // Zmiana gracza po wykonaniu ruchu
-                    toggleTurn();
-
-                    // Wymazanie konsoli
+                    
                     system("cls || clear");
                 }
                 else {
-                    std::cout << "Król bêdzie szachowany po tym ruchu!" << std::endl;
+                    printf("Król bêdzie szachowany po tym ruchu!\n");
                 }
             }
-            delete piece;
+            else {
+                printf("Nieprawid³owy ruch pionka!\n");
+            }
         }
         else {
-            std::cout << "Pole docelowe jest zajête przez w³asnego pionka!" << std::endl;
+            printf("Pole docelowe jest zajête przez w³asnego pionka!\n");
         }
+        delete piece;
     }
     else {
-        std::cout << "Nie mo¿esz ruszyæ pionkiem przeciwnika!" << std::endl;
+        printf("Nie mo¿esz ruszyæ pionkiem przeciwnika!\n");
     }
-
 }
+
 
 bool Game::isCheckAfterMove(int fromRow, int fromCol, int toRow, int toCol, bool isWhiteTurn) {
     const int(*board)[8] = graph.getBoard();
@@ -74,18 +71,13 @@ bool Game::isCheckAfterMove(int fromRow, int fromCol, int toRow, int toCol, bool
     tempBoard[toRow][toCol] = movedPiece;
     tempBoard[fromRow][fromCol] = 0;
 
-    // Znalezienie pozycji króla
-    int kingValue = isWhiteTurn ? 4 : -4; // wartoœæ króla
-    int kingRow = -1, kingCol = -1;
-    for (int i = 0; i < 8; ++i) {
-        for (int j = 0; j < 8; ++j) {
-            if (tempBoard[i][j] == kingValue) {
-                kingRow = i;
-                kingCol = j;
-                break;
-            }
-        }
-        if (kingRow != -1) break;
+    // Aktualizacja pozycji króla na kopii planszy
+    int& kingRow = isWhiteTurn ? whiteKingRow : blackKingRow;
+    int& kingCol = isWhiteTurn ? whiteKingCol : blackKingCol;
+
+    if (pieceValue == 4 || pieceValue == -4) {
+        kingRow = toRow;
+        kingCol = toCol;
     }
 
     // Sprawdzenie, czy jakikolwiek pionek przeciwnika mo¿e zaatakowaæ króla po wykonaniu ruchu
@@ -104,6 +96,7 @@ bool Game::isCheckAfterMove(int fromRow, int fromCol, int toRow, int toCol, bool
 
     return false; // Król nie bêdzie szachowany po tym ruchu
 }
+
 
 
 
@@ -168,22 +161,23 @@ bool Game::isCheckmate(bool isWhiteTurn) {
 
     // Wyœwietlanie komunikatów tylko wtedy, gdy odpowiednia flaga zmienia wartoœæ na true
     if (canMoveOutOfCheck) {
-        std::cout << "Król mo¿e siê ruszyæ i wyjœæ ze szacha." << std::endl;
+        printf("Król mo¿e siê ruszyæ i wyjœæ ze szacha.\n");
     }
 
     if (canBlockAttacker) {
-        std::cout << "Mo¿na zablokowaæ ruch atakuj¹cego pionka." << std::endl;
+        printf("Mo¿na zablokowaæ ruch atakuj¹cego pionka.\n");
     }
 
     if (canCaptureAttackerPiece) {
-        std::cout << "Mo¿na zbiæ atakuj¹cego pionka." << std::endl;
+        printf("Mo¿na zbiæ atakuj¹cego pionka.\n");
     }
 
     // Król jest szachowany i nie mo¿e siê ruszyæ, szacha nie da siê zablokowaæ ani zbiæ
     if (!canMoveOutOfCheck && !canBlockAttacker && !canCaptureAttackerPiece) {
-        std::cout << "Szach mat!" << std::endl;
+        printf("Szach mat!\n");
         return true;
     }
+
 
     return false;
 }
@@ -207,7 +201,8 @@ bool Game::isCheck(bool isWhiteTurn, std::vector<std::tuple<int, int, int>>& att
                 Piece* piece = createPiece(board[i][j]);
                 if (piece->canCaptureKing(i, j, kingRow, kingCol, board, isWhiteTurn)) {
                     attackers.push_back(std::make_tuple(i, j, board[i][j])); // Dodaj pozycjê atakuj¹cego pionka do wektora
-                    std::cout << "Atakuj¹cy pionek na pozycji (" << i << ", " << j << ") z wartoœci¹ " << board[i][j] << std::endl;
+                    printf("Atakuj¹cy pionek na pozycji (%d, %d) z wartoœci¹ %d\n", i, j, board[i][j]);
+
                 }
                 delete piece;
             }
@@ -227,74 +222,87 @@ void Game::GameLoop() {
     bool checkMessageDisplayed = false; // Flaga, która œledzi czy komunikat o szachu zosta³ ju¿ wyœwietlony
     bool moveMade = false; // Flaga, która œledzi czy wykonano ruch
 
+    findKings(board);
+
     // Poka¿ planszê i okno przed rozpoczêciem pêtli
     graph.render();
+
     while (graph.getWindow().isOpen()) {
         sf::Event event;
-        while (graph.getWindow().pollEvent(event)) {
-            if (event.type == sf::Event::MouseButtonPressed) {
-                if (event.mouseButton.button == sf::Mouse::Left) {
-                    sf::Vector2i mousePosition = sf::Mouse::getPosition(graph.getWindow());
-                    int i = mousePosition.y / (graph.getWindow().getSize().y / 8);
-                    int j = mousePosition.x / (graph.getWindow().getSize().x / 8);
+        if (graph.getWindow().waitEvent(event)) {
+            if (event.type == sf::Event::MouseButtonPressed && event.mouseButton.button == sf::Mouse::Left) {
+                sf::Vector2i mousePosition = sf::Mouse::getPosition(graph.getWindow());
+                int i = mousePosition.y / (graph.getWindow().getSize().y / 8);
+                int j = mousePosition.x / (graph.getWindow().getSize().x / 8);
 
-                    if (selectedPieceRow == -1 && selectedPieceCol == -1) {
-                        selectedPieceRow = i;
-                        selectedPieceCol = j;
+                bool isWhite = isWhiteTurn(); // Sprawdzenie koloru gracza
 
-                        // SprawdŸ, czy jest szach
-                        if (isCheck(isWhiteTurn(), attackers)) {
-                            if (isCheckmate(isWhiteTurn())) {
-                                std::cout << "Szach mat! Gra zakoñczona." << std::endl;
-                            //    graph.getWindow().close();
-                            }
-                            else if (!checkMessageDisplayed) {
-                                std::cout << "Twój król jest szachowany! Musisz obroniæ króla!" << std::endl;
-                                checkMessageDisplayed = true;
-                            }
+                if (selectedPieceRow == -1 && selectedPieceCol == -1) {
+                    selectedPieceRow = i;
+                    selectedPieceCol = j;
+
+                    // SprawdŸ, czy jest szach
+                    if (isCheck(isWhite, attackers)) {
+                        if (isCheckmate(isWhite)) {
+                            printf("Szach mat! Gra zakoñczona.\n");
+                            // graph.getWindow().close();
                         }
-                        else {
-                            checkMessageDisplayed = false; // Resetowanie flagi, gdy nie ma szacha
-                        }
-
-                        // SprawdŸ, czy jest mo¿liwe wykonanie ruchu
-                        if ((isWhiteTurn() && board[i][j] == 4) || (!isWhiteTurn() && board[i][j] == -4)) {
-                            if (std::find(possibleKingMoves.begin(), possibleKingMoves.end(), std::make_pair(i, j)) != possibleKingMoves.end()) {
-                                std::cout << "Wybrane pole (" << i << ", " << j << ") jest w wektorze possibleKingMoves." << std::endl;
-                                movePiece(selectedPieceRow, selectedPieceCol, i, j);
-                                selectedPieceRow = -1;
-                                selectedPieceCol = -1;
-                                moveMade = true; // Ustawienie flagi na true po wykonaniu ruchu
-                            }
+                        else if (!checkMessageDisplayed) {
+                            printf("Twój król jest szachowany! Musisz obroniæ króla!\n");
+                            checkMessageDisplayed = true;
                         }
                     }
                     else {
-                        movePiece(selectedPieceRow, selectedPieceCol, i, j);
-                        selectedPieceRow = -1;
-                        selectedPieceCol = -1;
-                        moveMade = true; // Ustawienie flagi na true po wykonaniu ruchu
+                        checkMessageDisplayed = false; // Resetowanie flagi, gdy nie ma szacha
                     }
+
+                    // SprawdŸ, czy jest mo¿liwe wykonanie ruchu
+                    if ((isWhite && board[i][j] == 4) || (!isWhite && board[i][j] == -4)) {
+                        if (std::find(possibleKingMoves.begin(), possibleKingMoves.end(), std::make_pair(i, j)) != possibleKingMoves.end()) {
+                            printf("Wybrane pole (%d, %d) jest w wektorze possibleKingMoves.\n", i, j);
+                            movePiece(selectedPieceRow, selectedPieceCol, i, j, isWhite);
+                            // Aktualizacja pozycji króla po wykonaniu ruchu
+                            selectedPieceRow = -1;
+                            selectedPieceCol = -1;
+                            moveMade = true; // Ustawienie flagi na true po wykonaniu ruchu
+                        }
+                    }
+
+                }
+                else {
+                    movePiece(selectedPieceRow, selectedPieceCol, i, j, isWhite);
+                    if (board[i][j] == 4 || board[i][j] == -4) { // Sprawdzenie, czy poruszamy królem
+                        if (isWhite) {
+                            whiteKingRow = i;
+                            whiteKingCol = j;
+                        }
+                        else {
+                            blackKingRow = i;
+                            blackKingCol = j;
+                        }
+                    }
+                    selectedPieceRow = -1;
+                    selectedPieceCol = -1;
+                    moveMade = true; // Ustawienie flagi na true po wykonaniu ruchu
+                }
+
+                attackers.clear();
+
+                // Aktualizacja pozycji króla, jeœli wykonano ruch
+                if (moveMade) {
+                    printf("Bia³y król znajduje siê na pozycji (%d, %d).\n", whiteKingRow, whiteKingCol);
+                    printf("Czarny król znajduje siê na pozycji (%d, %d).\n", blackKingRow, blackKingCol);
+                    toggleTurn();
+                    graph.render();
+                    moveMade = false; // Resetowanie flagi po renderowaniu
                 }
             }
-            if (event.type == sf::Event::Closed) {
+            else if (event.type == sf::Event::Closed) {
                 graph.getWindow().close();
             }
         }
-
-        attackers.clear();
-
-        // Renderowanie gry tylko jeœli wykonano ruch
-        if (moveMade) {
-            graph.render();
-            moveMade = false; // Resetowanie flagi po renderowaniu
-        }
     }
 }
-
-
-
-
-
 
 
 bool Game::isWhiteTurn() const {
@@ -325,6 +333,25 @@ std::pair<int, int> Game::findKing(int kingValue) {
 
     return kingPosition;
 }
+
+
+void Game::findKings(const int(*board)[8]) {
+    for (int i = 0; i < 8; ++i) {
+        for (int j = 0; j < 8; ++j) {
+            if (board[i][j] == 4) { // Bia³y król
+                whiteKingRow = i;
+                whiteKingCol = j;
+            }
+            else if (board[i][j] == -4) { // Czarny król
+                blackKingRow = i;
+                blackKingCol = j;
+            }
+        }
+    }
+}
+
+
+
 
 
 bool Game::canKingMove(int kingRow, int kingCol, bool isWhiteTurn, std::vector<std::pair<int, int>>& possibleKingMoves) {
@@ -368,9 +395,9 @@ bool Game::canKingMove(int kingRow, int kingCol, bool isWhiteTurn, std::vector<s
     bool canMove = !possibleKingMoves.empty();
 
     // Wypisanie zawartoœci wektora possibleKingMoves
-    std::cout << "Mo¿liwe ruchy króla:" << std::endl;
+    printf("Mo¿liwe ruchy króla:\n");
     for (const auto& move : possibleKingMoves) {
-        std::cout << "Pozycja: (" << move.first << ", " << move.second << ")" << std::endl;
+        printf("Pozycja: (%d, %d)\n", move.first, move.second);
     }
 
     return canMove;
@@ -399,7 +426,7 @@ bool Game::canCaptureAttacker(int toRow, int toCol, const int board[8][8], const
                     // Sprawdzenie czy pionek na danej pozycji mo¿e zbic atakuj¹cego pionka
                     if (piece->canCapturePiece(i, j, fromRow, fromCol, board, pieceValue, isWhiteTurn)) {
                         // Wyœwietlenie komunikatu o pionku, który mo¿e zbic atakuj¹cego pionka
-                        std::cout << "Pionek na pozycji (" << i << ", " << j << ") mo¿e zbiæ atakuj¹cego pionka." << std::endl;
+                        printf("Pionek na pozycji (%d, %d) mo¿e zbiæ atakuj¹cego pionka.\n", i, j);
                         delete piece;
                         return true;
                     }
@@ -520,13 +547,38 @@ bool Game::canBlockCheck(int kingRow, int kingCol, int attackerRow, int attacker
     }
 
     // Wyœwietlenie zawartoœci wektora possibleBlock
-    std::cout << "Possible block positions: ";
+    printf("Possible block positions: ");
     for (const auto& pos : possibleBlock) {
-        std::cout << "(" << pos.first << ", " << pos.second << ") ";
+        printf("(%d, %d) ", pos.first, pos.second);
     }
-    std::cout << std::endl;
+    printf("\n");
+
 
     return !possibleBlock.empty(); // Zwraca true, jeœli mo¿liwe s¹ ruchy blokuj¹ce
 }
 
 
+/*
+void Game::checkPromotion() {
+    const int(*board)[8] = graph.getBoard();
+    const int promotionRowWhite = 0; // Rz¹d, na którym nastêpuje promocja dla bia³ych
+    const int promotionRowBlack = 7; // Rz¹d, na którym nastêpuje promocja dla czarnych
+
+    // SprawdŸ dla wszystkich pionków na odpowiednich rzêdach planszy
+    // dla bia³ych pionków sprawdzamy rz¹d 0
+    for (int col = 0; col < 8; ++col) {
+        if (board[promotionRowWhite][col] == 6) {
+            // Promuj pionka dla bia³ych
+            graph.promotePawn(graph.getWindow(), promotionRowWhite, col, true);
+        }
+    }
+    // dla czarnych pionków sprawdzamy rz¹d 7
+    for (int col = 0; col < 8; ++col) {
+        if (board[promotionRowBlack][col] == -6) {
+            // Promuj pionka dla czarnych
+            graph.promotePawn(graph.getWindow(), promotionRowBlack, col, false);
+        }
+    }
+}
+
+*/
