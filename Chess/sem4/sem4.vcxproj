@@ -126,12 +126,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\xyz89\OneDrive\Pulpit\sfml\SFML-2.6.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\xyz89\OneDrive\Pulpit\sfml\SFML-2.6.1\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\xyz89\OneDrive\Pulpit\sfml\SFML-2.6.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\xyz89\OneDrive\Pulpit\sfml\SFML-2.6.1\lib</AdditionalLibraryDirectories>
       <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-audio-d.lib;sfml-network-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -155,12 +155,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ApplicationManager.h" />
     <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Button.cpp" />
     <ClCompile Include="game.cpp" />
+    <ClCompile Include="GameScreen.h" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="MenuScreen.h" />
+    <ClCompile Include="Screen.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Board.h" />
+    <ClInclude Include="Button.h" />
     <ClInclude Include="game.h" />
     <ClInclude Include="identification.h" />
     <ClInclude Include="Knight.h" />
@@ -171,6 +177,7 @@
     <ClInclude Include="Pawn.h" />
     <ClInclude Include="Queen.h" />
     <ClInclude Include="King.h" />
+    <ClInclude Include="OptionsScreen.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

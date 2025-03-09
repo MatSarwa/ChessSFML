@@ -1,14 +1,14 @@
-#include "Game.h"
+#include "ApplicationManager.h"
 #include <locale>
 
 int main() {
+    // Ustawienie lokalizacji na polsk¹
+    setlocale(LC_CTYPE, "Polish");
 
-	// Ustawienie lokalizacji na polsk¹
-	setlocale(LC_CTYPE, "Polish");
+    // Utworzenie i uruchomienie mened¿era aplikacji
+    ApplicationManager app;
+    app.initialize();
+    app.run();
 
-	Game game;
-	game.GameLoop();
-
-
-	return 0;
+    return 0;
 }

@@ -1,0 +1,25 @@
+﻿  MenuScreen.h
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,65): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,65): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,65): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,65): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,65): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,65): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,65): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,65): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,65): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,51): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,51): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,51): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,51): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,51): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,51): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,51): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,51): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(42,51): warning C4244:         ]
+  Trwa generowanie kodu
+  0 of 356 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Zakończono generowanie kodu
+  sem4.vcxproj -> C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\x64\Release\sem4.exe
