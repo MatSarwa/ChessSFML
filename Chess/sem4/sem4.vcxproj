@@ -155,29 +155,55 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ApplicationManager.cpp" />
     <ClCompile Include="ApplicationManager.h" />
-    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Bishop.cpp" />
+    <ClCompile Include="ChessBoard.cpp" />
+    <ClCompile Include="BoardView.cpp" />
     <ClCompile Include="Button.cpp" />
-    <ClCompile Include="game.cpp" />
+    <ClCompile Include="ChessNotation.cpp" />
+    <ClCompile Include="ChessTimer.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameInfoPanel.cpp" />
+    <ClCompile Include="GameScreen.cpp" />
     <ClCompile Include="GameScreen.h" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="King.cpp" />
+    <ClCompile Include="Knight.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MenuScreen.h" />
+    <ClCompile Include="MoveHisotryPanel.cpp" />
+    <ClCompile Include="MoveHistory.cpp" />
+    <ClCompile Include="MoveValidator.cpp" />
+    <ClCompile Include="Pawn.cpp" />
+    <ClCompile Include="Queen.cpp" />
+    <ClCompile Include="Rook.cpp" />
     <ClCompile Include="Screen.h" />
+    <ClCompile Include="Slider.cpp" />
+    <ClCompile Include="TimeInput.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Board.h" />
+    <ClInclude Include="ChessBoard.h" />
+    <ClInclude Include="BoardView.h" />
     <ClInclude Include="Button.h" />
-    <ClInclude Include="game.h" />
-    <ClInclude Include="identification.h" />
+    <ClInclude Include="ChessNotation.h" />
+    <ClInclude Include="ChessTimer.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameInfoPanel.h" />
+    <ClInclude Include="GameState.h" />
     <ClInclude Include="Knight.h" />
     <ClInclude Include="Bishop.h" />
-    <ClInclude Include="Graph.h" />
+    <ClInclude Include="MoveHistory.h" />
+    <ClInclude Include="MoveValidator.h" />
+    <ClInclude Include="MoveHistoryPanel.h" />
     <ClInclude Include="Piece.h" />
     <ClInclude Include="Rook.h" />
     <ClInclude Include="Pawn.h" />
     <ClInclude Include="Queen.h" />
     <ClInclude Include="King.h" />
     <ClInclude Include="OptionsScreen.h" />
+    <ClInclude Include="Slider.h" />
+    <ClInclude Include="TimeInput.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

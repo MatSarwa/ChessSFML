@@ -1,231 +1,247 @@
-﻿  ApplicationManager.h
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         ]
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
+﻿  ApplicationManager.cpp
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         ]
+  (kompilowanie pliku źródłowego „ApplicationManager.cpp”)
   
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         ]
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         ]
+  (kompilowanie pliku źródłowego „ApplicationManager.cpp”)
   
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(57,59): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,67): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,67): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,67): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,67): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,67): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,67): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,67): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,67): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,67): warning C4244:         ]
+  (kompilowanie pliku źródłowego „ApplicationManager.cpp”)
   
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(57,51): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,53): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,53): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,53): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,53): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,53): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,53): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,53): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,53): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(160,53): warning C4244:         ]
+  (kompilowanie pliku źródłowego „ApplicationManager.cpp”)
   
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(149,65): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\OptionsScreen.h(213,40): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+  (kompilowanie pliku źródłowego „ApplicationManager.cpp”)
   
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(149,41): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(150,66): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(150,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(151,66): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(151,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(152,64): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(152,40): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:             T=int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         ]
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:             T=int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         ]
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         ]
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         ]
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,78): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,78): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,78): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,78): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,78): warning C4244:         ]
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,51): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,51): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,51): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,51): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,51): warning C4244:         ]
-  (kompilowanie pliku źródłowego „ApplicationManager.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,79): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,79): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,79): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,79): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,79): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,79): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,79): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,79): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,79): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,64): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,64): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,64): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,64): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,64): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,64): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,64): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,64): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.h(59,64): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,79): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,79): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,79): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,79): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,79): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,79): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,79): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,79): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,79): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,64): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,64): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,64): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,64): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,64): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,64): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,64): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,64): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(112,64): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,79): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,79): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,79): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,79): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,79): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,79): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,79): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,79): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,79): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,64): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,64): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,64): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,64): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,64): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,64): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,64): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,64): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\ApplicationManager.cpp(130,64): warning C4244:         ]
+  ApplicationManager.h
+  Bishop.cpp
+  ChessBoard.cpp
+  BoardView.cpp
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(72,61): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(72,61): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(72,61): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(72,61): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(72,61): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(72,49): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(72,49): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(72,49): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(72,49): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(72,49): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(75,60): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(75,60): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(75,60): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(75,60): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(75,60): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(75,48): warning C4244: "argument": konwersja z "int" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(75,48): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(75,48): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(75,48): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(75,48): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(189,14): warning C4244: "return": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\BoardView.cpp(193,14): warning C4244: "return": konwersja z "int" do "float", możliwa utrata danych
+  Button.cpp
+  ChessNotation.cpp
+  ChessTimer.cpp
+  Game.cpp
+  GameInfoPanel.cpp
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameInfoPanel.cpp(81,33): warning C4267: "return": konwersja z "size_t" do "int", możliwa utrata danych
+  GameScreen.cpp
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,67): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,67): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,67): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,67): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,67): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,67): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,67): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,67): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,67): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,50): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,50): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,50): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,50): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,50): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,50): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,50): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,50): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(56,50): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(215,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(216,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(493,17): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(495,32): warning C4267: "=": konwersja z "size_t" do "int", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,73): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,73): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,73): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,73): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,73): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,73): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,73): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,73): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,73): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,53): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,53): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,53): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,53): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,53): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,53): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,53): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,53): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(535,53): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(543,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(544,22): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(580,28): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(580,28): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(580,28): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(580,28): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(580,28): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(579,22): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(579,22): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(579,22): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(579,22): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(579,22): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(587,19): warning C4244: "inicjowanie": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(587,19): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(587,19): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(587,19): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(587,19): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(588,19): warning C4244: "inicjowanie": konwersja z "T" do "float", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(588,19): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(588,19): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(588,19): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.cpp(588,19): warning C4244:         ]
   GameScreen.h
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(57,59): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(57,51): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(149,65): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(149,41): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(150,66): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(150,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(151,66): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(151,42): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(152,64): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(152,40): warning C4244: "argument": konwersja z "int" do "float", możliwa utrata danych
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:             T=int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,110): warning C4244:         ]
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:             T=int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Graph.h(189,93): warning C4244:         ]
-  (kompilowanie pliku źródłowego „GameScreen.h”)
-  
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,71): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(20,54): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,78): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,78): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,78): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,78): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,78): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,51): warning C4244: "argument": konwersja z "T" do "float", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,51): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,51): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,51): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\GameScreen.h(26,51): warning C4244:         ]
+  GameState.cpp
+  King.cpp
+  Knight.cpp
+  main.cpp
   MenuScreen.h
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,67): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         with
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:             T=unsigned int
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         ]
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         and
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         [
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:             T=float
-C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(35,53): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,67): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:             T=unsigned int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MenuScreen.h(41,53): warning C4244:         ]
+  MoveHisotryPanel.cpp
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(142,84): warning C4244: "argument": konwersja z "const int" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(142,84): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(142,84): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(142,84): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(142,84): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(142,63): warning C4244: "argument": konwersja z "const int" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(142,63): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(142,63): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(142,63): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(142,63): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\MoveHisotryPanel.cpp(168,16): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+  MoveHistory.cpp
+  MoveValidator.cpp
   Generowanie kodu...
+  Trwa kompilowanie...
+  Pawn.cpp
+  Queen.cpp
+  Rook.cpp
+  Screen.h
+  Slider.cpp
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,66): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,66): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,66): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,66): warning C4244:             T=int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,66): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,66): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,66): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,66): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,66): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,54): warning C4244: "argument": konwersja z "T" do "T", możliwa utrata danych
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,54): warning C4244:         with
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,54): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,54): warning C4244:             T=int
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,54): warning C4244:         ]
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,54): warning C4244:         and
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,54): warning C4244:         [
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,54): warning C4244:             T=float
+C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\sem4\Slider.cpp(28,54): warning C4244:         ]
+  TimeInput.cpp
+  Generowanie kodu...
+x64\Debug\ApplicationManager.obj : warning LNK4042: obiekt określono więcej niż raz; dodatkowe wystąpienia zostały zignorowane
+x64\Debug\GameScreen.obj : warning LNK4042: obiekt określono więcej niż raz; dodatkowe wystąpienia zostały zignorowane
   sem4.vcxproj -> C:\Users\xyz89\OneDrive\Pulpit\repozytorium - Chess\ChessSFML\Chess\x64\Debug\sem4.exe

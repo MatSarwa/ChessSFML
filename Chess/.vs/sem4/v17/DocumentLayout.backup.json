@@ -3,88 +3,176 @@
   "WorkspaceRootPath": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\OptionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\OptionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\TimeInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\TimeInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MenuScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\MenuScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\GameScreen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessBoard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\ChessBoard.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\GameScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ApplicationManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\ApplicationManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\BoardView.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\BoardView.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveHisotryPanel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\MoveHisotryPanel.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Board.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveHistoryPanel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\MoveHistoryPanel.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveHistory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\MoveHistory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveValidator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\MoveValidator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Button.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Graph.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\OptionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\OptionsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessTimer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\ChessTimer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessTimer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\ChessTimer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ApplicationManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\ApplicationManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ApplicationManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\ApplicationManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Screen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Button.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MenuScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\MenuScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\TimeInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\TimeInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\identification.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\identification.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\BoardView.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\BoardView.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Queen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Queen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\ChessBoard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\King.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\King.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessNotation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\ChessNotation.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Knight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Knight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveValidator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\MoveValidator.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\ChessNotation.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Knight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Knight.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Rook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Rook.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Piece.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Pawn.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\King.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\King.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\King.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\King.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Queen.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Queen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Queen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Bishop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Bishop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Bishop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Bishop.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Board.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Knight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Knight.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Rook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Rook.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Pawn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Pawn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Slider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Slider.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Slider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0556752A-AFF4-4D59-9FB0-F31BA3357C27}|sem4\\sem4.vcxproj|solutionrelative:sem4\\Slider.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,20 +182,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "game.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\game.h",
-              "RelativeDocumentMoniker": "sem4\\game.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\game.h",
-              "RelativeToolTip": "sem4\\game.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-20T16:23:48.837Z",
-              "IsPinned": true
+              "DocumentIndex": 5,
+              "Title": "MoveHisotryPanel.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveHisotryPanel.cpp",
+              "RelativeDocumentMoniker": "sem4\\MoveHisotryPanel.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveHisotryPanel.cpp",
+              "RelativeToolTip": "sem4\\MoveHisotryPanel.cpp",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAALoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T11:47:13.83Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -127,119 +216,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MenuScreen.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MenuScreen.h",
-              "RelativeDocumentMoniker": "sem4\\MenuScreen.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MenuScreen.h",
-              "RelativeToolTip": "sem4\\MenuScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE8AAAACAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "MoveHistoryPanel.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveHistoryPanel.h",
+              "RelativeDocumentMoniker": "sem4\\MoveHistoryPanel.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveHistoryPanel.h",
+              "RelativeToolTip": "sem4\\MoveHistoryPanel.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwDIAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-08T16:38:44.074Z",
+              "WhenOpened": "2025-03-11T11:46:14.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameScreen.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameScreen.cpp",
+              "RelativeDocumentMoniker": "sem4\\GameScreen.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameScreen.cpp",
+              "RelativeToolTip": "sem4\\GameScreen.cpp",
+              "ViewState": "AgIAAPABAAAAAAAAAAAqwAcCAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T11:48:42.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ApplicationManager.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ApplicationManager.h",
-              "RelativeDocumentMoniker": "sem4\\ApplicationManager.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ApplicationManager.h*",
-              "RelativeToolTip": "sem4\\ApplicationManager.h*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-08T16:37:44.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "GameScreen.h",
               "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameScreen.h",
               "RelativeDocumentMoniker": "sem4\\GameScreen.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameScreen.h*",
-              "RelativeToolTip": "sem4\\GameScreen.h*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameScreen.h",
+              "RelativeToolTip": "sem4\\GameScreen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-03-08T16:39:00.297Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Board.cpp",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Board.cpp",
-              "RelativeDocumentMoniker": "sem4\\Board.cpp",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Board.cpp",
-              "RelativeToolTip": "sem4\\Board.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-20T16:56:52.336Z",
+              "DocumentIndex": 7,
+              "Title": "MoveHistory.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveHistory.h",
+              "RelativeDocumentMoniker": "sem4\\MoveHistory.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveHistory.h",
+              "RelativeToolTip": "sem4\\MoveHistory.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T12:26:21.288Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "game.cpp",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\game.cpp",
-              "RelativeDocumentMoniker": "sem4\\game.cpp",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\game.cpp",
-              "RelativeToolTip": "sem4\\game.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-08T15:43:04.009Z",
+              "Title": "BoardView.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\BoardView.h",
+              "RelativeDocumentMoniker": "sem4\\BoardView.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\BoardView.h",
+              "RelativeToolTip": "sem4\\BoardView.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T11:45:43.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChessBoard.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessBoard.h",
+              "RelativeDocumentMoniker": "sem4\\ChessBoard.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessBoard.h",
+              "RelativeToolTip": "sem4\\ChessBoard.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-20T16:57:02.612Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OptionsScreen.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\OptionsScreen.h",
-              "RelativeDocumentMoniker": "sem4\\OptionsScreen.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\OptionsScreen.h",
-              "RelativeToolTip": "sem4\\OptionsScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-08T16:54:55.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Button.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Button.h",
-              "RelativeDocumentMoniker": "sem4\\Button.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Button.h",
-              "RelativeToolTip": "sem4\\Button.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-08T16:44:23.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\main.cpp",
-              "RelativeDocumentMoniker": "sem4\\main.cpp",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\main.cpp",
-              "RelativeToolTip": "sem4\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "TimeInput.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\TimeInput.cpp",
+              "RelativeDocumentMoniker": "sem4\\TimeInput.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\TimeInput.cpp",
+              "RelativeToolTip": "sem4\\TimeInput.cpp",
+              "ViewState": "AgIAAB8BAAAAAAAAAAAAAB8BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-10T11:36:46.559Z",
+              "WhenOpened": "2025-03-27T19:40:22.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Graph.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Graph.h",
-              "RelativeDocumentMoniker": "sem4\\Graph.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Graph.h",
-              "RelativeToolTip": "sem4\\Graph.h",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACAAAAAfAAAAAAAAAA==",
+              "Title": "MoveValidator.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveValidator.cpp",
+              "RelativeDocumentMoniker": "sem4\\MoveValidator.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveValidator.cpp",
+              "RelativeToolTip": "sem4\\MoveValidator.cpp",
+              "ViewState": "AgIAAFkBAAAAAAAAAAAiwIMBAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T12:21:31.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Button.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Button.h",
+              "RelativeDocumentMoniker": "sem4\\Button.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Button.h",
+              "RelativeToolTip": "sem4\\Button.h",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-11T21:54:00.651Z",
+              "WhenOpened": "2025-03-08T16:44:23.397Z",
               "EditorCaption": ""
             },
             {
@@ -250,13 +339,79 @@
               "RelativeDocumentMoniker": "sem4\\Button.cpp",
               "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Button.cpp",
               "RelativeToolTip": "sem4\\Button.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAG8AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-08T16:44:38.983Z"
+              "WhenOpened": "2025-03-08T16:44:38.983Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
+              "Title": "OptionsScreen.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\OptionsScreen.h",
+              "RelativeDocumentMoniker": "sem4\\OptionsScreen.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\OptionsScreen.h",
+              "RelativeToolTip": "sem4\\OptionsScreen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-08T16:54:55.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ChessTimer.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessTimer.cpp",
+              "RelativeDocumentMoniker": "sem4\\ChessTimer.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessTimer.cpp",
+              "RelativeToolTip": "sem4\\ChessTimer.cpp",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACUAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T11:46:51.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ChessTimer.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessTimer.h",
+              "RelativeDocumentMoniker": "sem4\\ChessTimer.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessTimer.h",
+              "RelativeToolTip": "sem4\\ChessTimer.h",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAABEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T11:46:25.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationManager.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ApplicationManager.cpp",
+              "RelativeDocumentMoniker": "sem4\\ApplicationManager.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ApplicationManager.cpp",
+              "RelativeToolTip": "sem4\\ApplicationManager.cpp",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAiwJIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-10T12:09:54.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApplicationManager.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ApplicationManager.h",
+              "RelativeDocumentMoniker": "sem4\\ApplicationManager.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ApplicationManager.h",
+              "RelativeToolTip": "sem4\\ApplicationManager.h",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwCQAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-08T16:37:44.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "Screen.h",
               "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Screen.h",
               "RelativeDocumentMoniker": "sem4\\Screen.h",
@@ -269,111 +424,317 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "identification.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\identification.h",
-              "RelativeDocumentMoniker": "sem4\\identification.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\identification.h",
-              "RelativeToolTip": "sem4\\identification.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-24T17:56:11.974Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Queen.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Queen.h",
-              "RelativeDocumentMoniker": "sem4\\Queen.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Queen.h",
-              "RelativeToolTip": "sem4\\Queen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-10T14:14:27.338Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Pawn.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Pawn.h",
-              "RelativeDocumentMoniker": "sem4\\Pawn.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Pawn.h",
-              "RelativeToolTip": "sem4\\Pawn.h",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwEcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-10T14:14:18.762Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "King.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\King.h",
-              "RelativeDocumentMoniker": "sem4\\King.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\King.h",
-              "RelativeToolTip": "sem4\\King.h",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-10T14:14:31.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Knight.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Knight.h",
-              "RelativeDocumentMoniker": "sem4\\Knight.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Knight.h",
-              "RelativeToolTip": "sem4\\Knight.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-10T14:14:55.879Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "Piece.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Piece.h",
-              "RelativeDocumentMoniker": "sem4\\Piece.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Piece.h",
-              "RelativeToolTip": "sem4\\Piece.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Title": "MenuScreen.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MenuScreen.h",
+              "RelativeDocumentMoniker": "sem4\\MenuScreen.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MenuScreen.h",
+              "RelativeToolTip": "sem4\\MenuScreen.h",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-10T14:15:44.799Z"
+              "WhenOpened": "2025-03-08T16:38:44.074Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
+              "Title": "TimeInput.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\TimeInput.h",
+              "RelativeDocumentMoniker": "sem4\\TimeInput.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\TimeInput.h",
+              "RelativeToolTip": "sem4\\TimeInput.h",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-27T19:40:10.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\main.cpp",
+              "RelativeDocumentMoniker": "sem4\\main.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\main.cpp",
+              "RelativeToolTip": "sem4\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-10T11:36:46.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "BoardView.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\BoardView.cpp",
+              "RelativeDocumentMoniker": "sem4\\BoardView.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\BoardView.cpp",
+              "RelativeToolTip": "sem4\\BoardView.cpp",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAMEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T11:46:43.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ChessBoard.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessBoard.cpp",
+              "RelativeDocumentMoniker": "sem4\\ChessBoard.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessBoard.cpp",
+              "RelativeToolTip": "sem4\\ChessBoard.cpp",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-20T16:56:52.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChessNotation.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessNotation.h",
+              "RelativeDocumentMoniker": "sem4\\ChessNotation.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessNotation.h",
+              "RelativeToolTip": "sem4\\ChessNotation.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADUAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T12:20:27.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "GameState.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameState.h",
+              "RelativeDocumentMoniker": "sem4\\GameState.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameState.h",
+              "RelativeToolTip": "sem4\\GameState.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwEQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T12:21:12.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MoveValidator.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveValidator.h",
+              "RelativeDocumentMoniker": "sem4\\MoveValidator.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\MoveValidator.h",
+              "RelativeToolTip": "sem4\\MoveValidator.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwDkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-11T12:20:10.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "GameState.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameState.cpp",
+              "RelativeDocumentMoniker": "sem4\\GameState.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\GameState.cpp",
+              "RelativeToolTip": "sem4\\GameState.cpp",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAiwO0AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T12:29:50.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Game.cpp",
+              "RelativeDocumentMoniker": "sem4\\Game.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Game.cpp",
+              "RelativeToolTip": "sem4\\Game.cpp",
+              "ViewState": "AgIAAJgAAAAAAAAAAAApwLoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-08T15:43:04.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ChessNotation.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessNotation.cpp",
+              "RelativeDocumentMoniker": "sem4\\ChessNotation.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\ChessNotation.cpp",
+              "RelativeToolTip": "sem4\\ChessNotation.cpp",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAkwHMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-11T12:21:23.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Knight.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Knight.cpp",
+              "RelativeDocumentMoniker": "sem4\\Knight.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Knight.cpp",
+              "RelativeToolTip": "sem4\\Knight.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T22:41:17.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
               "Title": "Rook.h",
               "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Rook.h",
               "RelativeDocumentMoniker": "sem4\\Rook.h",
               "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Rook.h",
               "RelativeToolTip": "sem4\\Rook.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-10T14:15:21.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Board.h",
-              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Board.h",
-              "RelativeDocumentMoniker": "sem4\\Board.h",
-              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Board.h",
-              "RelativeToolTip": "sem4\\Board.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "DocumentIndex": 30,
+              "Title": "Piece.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Piece.h",
+              "RelativeDocumentMoniker": "sem4\\Piece.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Piece.h",
+              "RelativeToolTip": "sem4\\Piece.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-20T16:57:02.612Z"
+              "WhenOpened": "2024-04-10T14:15:44.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 31,
+              "Title": "Pawn.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Pawn.h",
+              "RelativeDocumentMoniker": "sem4\\Pawn.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Pawn.h",
+              "RelativeToolTip": "sem4\\Pawn.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-10T14:14:18.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "King.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\King.cpp",
+              "RelativeDocumentMoniker": "sem4\\King.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\King.cpp",
+              "RelativeToolTip": "sem4\\King.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T22:40:43.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "King.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\King.h",
+              "RelativeDocumentMoniker": "sem4\\King.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\King.h",
+              "RelativeToolTip": "sem4\\King.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-10T14:14:31.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Queen.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Queen.cpp",
+              "RelativeDocumentMoniker": "sem4\\Queen.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Queen.cpp",
+              "RelativeToolTip": "sem4\\Queen.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T22:40:32.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Queen.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Queen.h",
+              "RelativeDocumentMoniker": "sem4\\Queen.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Queen.h",
+              "RelativeToolTip": "sem4\\Queen.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-10T14:14:27.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Bishop.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Bishop.cpp",
+              "RelativeDocumentMoniker": "sem4\\Bishop.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Bishop.cpp",
+              "RelativeToolTip": "sem4\\Bishop.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T22:41:10.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
               "Title": "Bishop.h",
               "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Bishop.h",
               "RelativeDocumentMoniker": "sem4\\Bishop.h",
               "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Bishop.h",
               "RelativeToolTip": "sem4\\Bishop.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-10T14:15:05.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Knight.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Knight.h",
+              "RelativeDocumentMoniker": "sem4\\Knight.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Knight.h",
+              "RelativeToolTip": "sem4\\Knight.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-10T14:14:55.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Rook.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Rook.cpp",
+              "RelativeDocumentMoniker": "sem4\\Rook.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Rook.cpp",
+              "RelativeToolTip": "sem4\\Rook.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T22:41:00.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Pawn.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Pawn.cpp",
+              "RelativeDocumentMoniker": "sem4\\Pawn.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Pawn.cpp",
+              "RelativeToolTip": "sem4\\Pawn.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T22:40:23.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Slider.cpp",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Slider.cpp",
+              "RelativeDocumentMoniker": "sem4\\Slider.cpp",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Slider.cpp",
+              "RelativeToolTip": "sem4\\Slider.cpp",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwCsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-10T14:38:08.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Slider.h",
+              "DocumentMoniker": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Slider.h",
+              "RelativeDocumentMoniker": "sem4\\Slider.h",
+              "ToolTip": "C:\\Users\\xyz89\\OneDrive\\Pulpit\\repozytorium - Chess\\ChessSFML\\Chess\\sem4\\Slider.h",
+              "RelativeToolTip": "sem4\\Slider.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-10T14:38:26.074Z"
             }
           ]
         }

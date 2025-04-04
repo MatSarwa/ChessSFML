@@ -1,69 +1,74 @@
 #pragma once
 #include "Screen.h"
 #include "Button.h"
-#include "Game.h" 
+#include "ChessTimer.h"
+// #include "GameInfoPanel.h"
+#include "MoveHistoryPanel.h"
+#include "ChessBoard.h"
+#include "BoardView.h"
+#include <SFML/Graphics.hpp>
+#include <string>
+#include <vector>
+#include "ApplicationManager.h"
 
 class GameScreen : public Screen {
 private:
-    // Tymczasowo komentujemy klasê Game
-    // Game game;
-    Button backButton;
+    // Komponenty UI
+    sf::Font font;
     sf::RectangleShape background;
-    sf::CircleShape redCircle;
+    Button backButton;
+    Button resetButton;
+    Button undoButton;
+
+    // Komponenty gry
+    ChessBoard chessBoard;        // Model planszy
+    BoardView boardView;          // Widok planszy
+    ChessTimer whiteTimer;        // Zegar dla bia³ego gracza
+    ChessTimer blackTimer;        // Zegar dla czarnego gracza
+    // GameInfoPanel infoPanel;      // Panel informacyjny
+    MoveHistoryPanel historyPanel; // Panel historii ruchów
+
+    // Stan gry
+    bool isPieceSelected;         // Czy figura jest wybrana
+    sf::Vector2i selectedPiecePos; // Pozycja wybranej figury
+    bool gameOver;                // Czy gra siê zakoñczy³a
+    bool currentPlayer;           // Aktualny gracz (true = bia³y, false = czarny)
+    
+    int whitePlayerTime;
+    int blackPlayerTime;
+
+
+    ApplicationManager* appManager;
+
+    // Metody pomocnicze
+    void handleBoardClick(const sf::Vector2i& mousePos);
+    void makeMove(int fromRow, int fromCol, int toRow, int toCol);
+    bool needsPromotion(int row, int col);
+    std::string generateMoveNotation(int fromRow, int fromCol, int toRow, int toCol);
+    void checkGameState();
+    void undoLastMove();
+    void updateBackgroundSize();
+
+    bool showPopup;
+    sf::RectangleShape popupBackground;
+    sf::Text popupText;
+    Button popupOkButton;
+    std::string popupMessage;
+    sf::Color popupColor;
+
+    void showPopupWin(const std::string& message, sf::Color color);
+    void hidePopup();
+   
 
 public:
-    GameScreen(sf::RenderWindow& win) :
-        Screen(win),
-        backButton(50, 550, 100, 30, "Powrót")
-    {
-        // Tworzymy czarne t³o
-        background.setSize(sf::Vector2f(win.getSize().x, win.getSize().y));
-        background.setFillColor(sf::Color::Black);
+    GameScreen(sf::RenderWindow& win, ApplicationManager* manager = nullptr);
+    virtual void onEnter() override;
+    virtual void onExit() override;
+    virtual std::string handleEvent(const sf::Event& event) override;
+    virtual void update() override;
+    virtual void render() override;
+    void resetGame();
+    void setPlayerTimes(int whiteTime, int blackTime);
 
-        // Tworzymy czerwony okr¹g
-        redCircle.setRadius(100);
-        redCircle.setFillColor(sf::Color::Red);
-        redCircle.setPosition(win.getSize().x / 2 - 100, win.getSize().y / 2 - 100);
-    }
 
-    void onEnter() override {
-        // Tymczasowo puste
-    }
-
-    void onExit() override {
-        // Tymczasowo puste
-    }
-
-    std::string handleEvent(const sf::Event& event) override {
-        if (event.type == sf::Event::MouseButtonPressed) {
-            sf::Vector2i mousePos = sf::Mouse::getPosition(window);
-            if (backButton.isClicked(mousePos)) {
-                return "menu";
-            }
-        }
-        else if (event.type == sf::Event::KeyPressed) {
-            if (event.key.code == sf::Keyboard::Escape) {
-                return "menu";
-            }
-        }
-
-        return "current";
-    }
-
-    void update() override {
-        // Aktualizacja stanu przycisku
-        sf::Vector2i mousePos = sf::Mouse::getPosition(window);
-        backButton.update(mousePos);
-    }
-
-    void render() override {
-        // Rysujemy czarne t³o
-        window.draw(background);
-
-        // Rysujemy czerwony okr¹g
-        window.draw(redCircle);
-
-        // Renderowanie przycisku powrotu
-        backButton.render(window);
-    }
 };

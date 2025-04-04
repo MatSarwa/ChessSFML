@@ -1,43 +1,90 @@
-#pragma once
-
-#include "Graph.h"
-#include "Board.h"
-#include "Piece.h"
-
-
-class Game {
-private:
-    Graph graph;
-    ChessBoard board;
-    Piece* selectedPiece = nullptr;
-    bool whiteTurn = true;
-    std::vector<std::tuple<int, int, int>> attackers;
-    std::vector<std::pair<int, int>> possibleKingMoves; // Dodane
-    std::vector<std::pair<int, int>> possibleBlock; // Dodane
-    std::pair<int, int> findKing(int kingValue);
-
-    int whiteKingRow = -1;
-    int whiteKingCol = -1;
-    int blackKingRow = -1;
-    int blackKingCol = -1;
-
-public:
-    // Konstruktor
-    Game() : possibleKingMoves(possibleKingMoves) {}; // Poprawione
-
-    void movePiece(int fromRow, int fromCol, int toRow, int toCol, bool isWhite);
-    void GameLoop();
-    bool isWhiteTurn() const;
-    void toggleTurn();
-    bool isCheck(bool isWhiteTurn, std::vector<std::tuple<int, int, int>>& attackers);
-    bool isCheckmate(bool isWhiteTurn);
-    bool isCheckAfterMove(int fromRow, int fromCol, int toRow, int toCol, bool isWhiteTurn);
-    bool canKingMove(int kingRow, int kingCol, bool isWhiteTurn, std::vector<std::pair<int, int>>& possibleKingMoves);
-    Piece* createPiece(int pieceValue);
-    bool canCaptureAttacker(int toRow, int toCol, const int board[8][8], const std::vector<std::tuple<int, int, int>>& attackers, bool isWhite);
-    bool canBlockCheck(int kingRow, int kingCol, int attackerRow, int attackerCol, int attackerValue, bool isWhite, const std::vector<std::tuple<int, int, int>>& attackers, std::vector<std::pair<int, int>>& possibleBlock);
-    void checkPromotion();
-    void findKings(const int(*board)[8]);
-
-};
-
+//#pragma once
+//#include "Board.h"
+//#include "MoveValidator.h"
+//#include "ChessNotation.h"
+//#include "GameState.h"
+//#include "MoveHistory.h"
+//#include <SFML/Graphics.hpp>
+//#include <vector>
+//#include <string>
+//#include <memory>
+//
+//// Enumy dla stanu gry
+//enum class GameResult {
+//    ONGOING,
+//    WHITE_WIN,
+//    BLACK_WIN,
+//    DRAW
+//};
+//
+//// G³ówna klasa kontrolera gry szachowej
+//class Game {
+//private:
+//    // Stan gry
+//    Board board;                         // Plansza szachowa
+//    std::unique_ptr<MoveValidator> validator; // Walidator ruchów
+//    std::unique_ptr<ChessNotation> notation;  // Konwerter notacji
+//    std::unique_ptr<GameState> gameState;     // Stan gry
+//    std::unique_ptr<MoveHistory> moveHistory; // Historia ruchów
+//
+//    // Bie¿¹ce zmienne gry
+//    bool whiteTurn;                      // Czy teraz ruch bia³ych
+//    int selectedPieceRow;                // Wiersz wybranej figury
+//    int selectedPieceCol;                // Kolumna wybranej figury
+//    bool pieceSelected;                  // Czy figura jest wybrana (zmieniona nazwa z isPieceSelected)
+//
+//    // Zmienne dla ostatniego ruchu
+//    int lastMoveFromRow;
+//    int lastMoveFromCol;
+//    int lastMoveToRow;
+//    int lastMoveToCol;
+//    int lastCapturedPiece;
+//    bool lastMoveWasCapture;
+//    std::string lastMoveNotation;
+//
+//    // Pomocnicze bufory
+//    std::vector<sf::Vector2i> possibleMoves;  // Mo¿liwe ruchy dla wybranej figury
+//    std::vector<sf::Vector2i> attackingPieces; // Figury atakuj¹ce króla
+//
+//public:
+//    // Konstruktor i destruktor
+//    Game();
+//    ~Game();
+//
+//    // Inicjalizacja i reset
+//    void init();
+//    void reset();
+//
+//    // Metody g³ównego cyklu gry
+//    void update();
+//    void handleInput(const sf::Event& event, const sf::Vector2i& mousePos);
+//
+//    // Metody zarz¹dzania ruchami
+//    bool makeMove(int fromRow, int fromCol, int toRow, int toCol);
+//    bool undoLastMove();
+//    std::vector<sf::Vector2i> getPossibleMoves(int row, int col);
+//
+//    // Metody dotycz¹ce stanu gry
+//    bool isWhiteTurn() const { return whiteTurn; }
+//    bool isGameOver() const;
+//    bool isCheck(bool forWhite) const;
+//    bool isCheckmate(bool forWhite) const;
+//    bool isStalemate(bool forWhite) const;
+//    GameResult getGameResult() const;
+//    std::string getResultReason() const;
+//
+//    // Pomocnicze metody
+//    bool isPieceSelected() const;  // Zmieniona na funkcjê, która korzysta z pola pieceSelected
+//    sf::Vector2i getSelectedPiecePos() const { return sf::Vector2i(selectedPieceRow, selectedPieceCol); }
+//    bool wasLastMoveCapture() const { return lastMoveWasCapture; }
+//    int getLastCapturedPiece() const { return lastCapturedPiece; }
+//    std::string getLastMoveNotation() const { return lastMoveNotation; }
+//
+//    // Gettery dla komponentów gry
+//    const Board& getBoard() const { return board; }
+//    const MoveHistory& getMoveHistory() const { return *moveHistory; }
+//
+//    // Metody dla promocji pionka
+//    bool needsPromotion() const;
+//    bool promotePawn(int row, int col, int newPiece);
+////};
